@@ -11,17 +11,18 @@
     ],
     "require": {
         "php": "^8.0",
+        "bro/multi-guard-auth": "^1.0",
         "laravel/framework": "^9.0|^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
-            "Bro\\MultiGuardAuth\\": "src/"
+            "Bro\\multi-guard-auth\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bro\\MultiGuardAuth\\MultiGuardAuthServiceProvider"
+                "Bro\\multi-guard-auth\\src\\MultiGuardAuthServiceProvider"
             ]
         }
     },
