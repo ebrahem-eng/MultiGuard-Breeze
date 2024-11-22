@@ -11,28 +11,26 @@
     ],
     "require": {
         "php": "^8.0",
-        "bro/multi-guard-auth": "^1.0",
         "laravel/framework": "^9.0|^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
-            "multi-guard-auth\\": "src/"
+            "Bro\\MultiGuardAuth\\": "multi-guard-auth/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "multi-guard-auth\\src\\MultiGuardAuthServiceProvider"
+                "Bro\\MultiGuardAuth\\MultiGuardAuthServiceProvider"
             ]
         }
     },
-    
     "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/ebrahem-eng/MultiGuard-Breeze.git"
-    }
-],
+        {
+            "type": "vcs",
+            "url": "https://github.com/ebrahem-eng/MultiGuard-Breeze.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
