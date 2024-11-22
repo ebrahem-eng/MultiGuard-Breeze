@@ -15,16 +15,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Bro\\multi-guard-auth\\": "src/"
+            "Bro\\MultiGuardAuth\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bro\\multi-guard-auth\\src\\MultiGuardAuthServiceProvider"
+                "Bro\\MultiGuardAuth\\MultiGuardAuthServiceProvider"
             ]
         }
     },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/ebrahem-eng/MultiGuard-Breeze.git"
+    }
+],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
