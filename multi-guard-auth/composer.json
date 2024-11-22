@@ -1,5 +1,5 @@
 {
-    "name": "bro/multi-guard-auth",
+    "name": "multi-guard-auth",
     "description": "Laravel package for creating multiple authentication guards",
     "type": "library",
     "license": "MIT",
