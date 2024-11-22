@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Bro\\MultiGuardAuth\\": "src/"
+            "Bro\\multi-guard-auth\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bro\\MultiGuardAuth\\MultiGuardAuthServiceProvider"
+                "Bro\\multi-guard-auth\\src\\MultiGuardAuthServiceProvider"
             ]
         }
     },
